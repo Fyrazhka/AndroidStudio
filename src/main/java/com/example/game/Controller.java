@@ -1,15 +1,17 @@
 package com.example.game;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class Controller {
+    public Button bStart;
     @FXML
-    private Label welcomeText;
+    private Label name_of_game;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void onBStartClick() {
+        name_of_game.setText("Погнали");
 
     }
 }
