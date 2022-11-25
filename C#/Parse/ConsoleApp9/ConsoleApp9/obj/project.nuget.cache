@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cvraKwOXs2hYPyfttV83RTh9iF8jNCBp4SvyY2QqWaJ19RokD2HxllrJGScjepW62P2kplP/bNKl6wrIPDA6MQ==",
+  "success": true,
+  "projectFilePath": "E:\\ПРОЕКТЫ\\С#\\Parse\\ConsoleApp9\\ConsoleApp9\\ConsoleApp9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Fyrazhka\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
