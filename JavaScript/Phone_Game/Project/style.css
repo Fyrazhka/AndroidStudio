@@ -1,0 +1,119 @@
+.body{
+  margin: 0px;
+  text-align: center;
+}
+#phone{
+  margin: 150px 0px 200px 550px;
+  height:650px ;
+  width: 300px;
+  border: 10px solid #000000;        
+  border-radius: 60px;   
+  background-color: rgb(212, 212, 212);
+  float: left;
+}
+#application{
+  width: 300px;
+  height: 650px;
+
+  border-radius: 45px 45px 45px 45px;  
+  background-image:url("image/fon.jpg");    
+  overflow: hidden;
+    
+}
+.play{
+  width: 45px;    
+  height: 45px;
+  margin:447px 0px 0px  91px;
+  border: 3px solid #ffffff;
+  border-radius: 10px; 
+  position: absolute;
+  background-image:url("image/gamefon.jpg"); 
+}
+#map{
+  width: 200px;
+  height: 200px;
+  border: 3px solid #000000;
+  background-color: red;
+  margin:210px 0px 0px 610px;
+  float: left;
+  position: absolute;
+  display: none;
+}
+#pimage{
+  width: 25px;
+  height: 25px;
+  margin:140px 0px 0px 60px;
+  float: left;
+  position: absolute;
+
+}
+#b0image{
+  width: 25px;
+  height: 25px;
+  margin:40px 0px 0px 40px;
+  float: left;
+  position: absolute;
+}
+
+#b1image{
+  width: 25px;
+  height: 25px;
+  margin:120px 0px 0px 40px;
+  float: left;
+  position: absolute;
+}
+#discription{
+  width: 200px;
+  height: 40px;
+  margin:420px 0px 0px 610px;
+  border: 3px solid #000000;
+  background-color: rgb(72, 74, 211);
+  float: left;
+  position: absolute;
+  display: none;
+}
+#door{
+  width: 6px;
+  height: 30px;
+  margin:270px 0px 0px 810px;
+  background-color: green;
+  float: left;
+  position: absolute;
+  display: none;
+}
+#firstbutton{
+  width: 100px;
+  height: 50px;
+  margin:510px 0px 0px 590px;
+  float: left;
+  position: absolute;
+  display: none;
+}
+#secondbutton{
+  width: 100px;
+  height: 50px;
+  margin:510px 0px 0px 740px;
+  float: left;
+  position: absolute;
+  display: none;
+}
+#endbutton{
+  width: 100px;
+  height: 50px;
+  margin:300px 0px 0px 660px;
+  float: left;
+  position: absolute;
+  display: none;  
+}
+#b1{
+  width: 100px;    
+  height: 50px;
+}
+#b2{
+  width: 100px;    
+  height: 50px;
+}
+#bend{
+  width: 100px;    
+  height: 50px;
+}

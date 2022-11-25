@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RunForLife</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="phone"> 
+      <div id="application">
+        <div><button class="play" onclick="startgame()"></button></div>
+		  </div>      
+    </div>
+    <div id="map"> <img src="image/player.png" id="pimage"><img src="image/bot.png" id="b0image"><img src="image/bot.png" id="b1image"></div>
+    <div id="discription"></div>
+    <div id="door"></div>
+    <div id="firstbutton"><button id="b1" onclick="sendToServer1()">Load</button> </div>
+    <div id="secondbutton"><button id="b2" onclick="sendToServer2()">Save</button> </div>
+    <div id="endbutton"><button id="bend" onclick="finishgame()">Exit</button> </div>
+    <script src="script.js"></script>
+  </body>
+</html>
