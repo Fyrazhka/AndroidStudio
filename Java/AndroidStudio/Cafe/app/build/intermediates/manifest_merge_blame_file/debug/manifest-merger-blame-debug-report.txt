@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication1232"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Cafe\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Cafe\app\src\main\AndroidManifest.xml
+10
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+18
+19    <application
+19-->C:\Cafe\app\src\main\AndroidManifest.xml:5:5-23:19
+20        android:allowBackup="true"
+20-->C:\Cafe\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Cafe\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="Кафе от Димы"
+25-->C:\Cafe\app\src\main\AndroidManifest.xml:8:9-37
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Cafe\app\src\main\AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->C:\Cafe\app\src\main\AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Cafe\app\src\main\AndroidManifest.xml:11:9-40
+30        <activity android:name="com.example.myapplication1232.PayActivity" />
+30-->C:\Cafe\app\src\main\AndroidManifest.xml:12:9-58
+30-->C:\Cafe\app\src\main\AndroidManifest.xml:12:19-46
+31        <activity android:name="com.example.myapplication1232.TrashActivity" />
+31-->C:\Cafe\app\src\main\AndroidManifest.xml:13:9-51
+31-->C:\Cafe\app\src\main\AndroidManifest.xml:13:19-48
+32        <activity android:name="com.example.myapplication1232.MenuActivity" />
+32-->C:\Cafe\app\src\main\AndroidManifest.xml:14:9-50
+32-->C:\Cafe\app\src\main\AndroidManifest.xml:14:19-47
+33        <activity android:name="com.example.myapplication1232.ChooseActivity" />
+33-->C:\Cafe\app\src\main\AndroidManifest.xml:15:9-52
+33-->C:\Cafe\app\src\main\AndroidManifest.xml:15:19-49
+34        <activity android:name="com.example.myapplication1232.MainActivity" >
+34-->C:\Cafe\app\src\main\AndroidManifest.xml:16:9-22:20
+34-->C:\Cafe\app\src\main\AndroidManifest.xml:16:19-47
+35            <intent-filter>
+35-->C:\Cafe\app\src\main\AndroidManifest.xml:17:13-21:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Cafe\app\src\main\AndroidManifest.xml:18:17-69
+36-->C:\Cafe\app\src\main\AndroidManifest.xml:18:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Cafe\app\src\main\AndroidManifest.xml:20:17-77
+38-->C:\Cafe\app\src\main\AndroidManifest.xml:20:27-74
+39            </intent-filter>
+40        </activity>
+41        <!-- Needs to be explicitly declared on P+ -->
+42        <uses-library
+42-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+43            android:name="org.apache.http.legacy"
+43-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+44            android:required="false" />
+44-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+45
+46        <activity
+46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Fyrazhka\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+54    </application>
+55
+56</manifest>
