@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+
+
+    <Button
+        android:id="@+id/b_trash"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="742dp"
+        android:background="#FFFFFF"
+        android:fontFamily="monospace"
+        android:onClick="trash"
+        android:text="Корзина"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="95dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:minHeight="140dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_of_eat0"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/burger01" />
+
+                <TextView
+                    android:id="@+id/name_and_cost_of_eat0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background='@null'
+                    android:fontFamily="monospace"
+                    android:text="Бургер 3.0"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b_minus0"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="choose_minus"
+                    android:shadowColor="#D11919"
+                    android:stateListAnimator="@null"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/count_of_eat0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/b_plus0"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="51dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#FFFFFF"
+                    android:onClick="choose_plus"
+                    android:stateListAnimator="@null"
+                    android:text="+"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="140dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_of_eat1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/burger01" />
+
+                <TextView
+                    android:id="@+id/name_and_cost_of_eat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background='@null'
+                    android:fontFamily="monospace"
+                    android:text="Чизбургер 3.0"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b_minus1"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#C1C0C0"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="choose_minus"
+                    android:shadowColor="#D11919"
+                    android:stateListAnimator="@null"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/count_of_eat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/b_plus1"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#FFFFFF"
+                    android:onClick="choose_plus"
+                    android:stateListAnimator="@null"
+                    android:text="+"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:minHeight="140dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_of_eat5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/cookie5" />
+
+                <TextView
+                    android:id="@+id/name_and_cost_of_eat5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background='@null'
+                    android:fontFamily="monospace"
+                    android:text="Пироженое 3.0"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b_minus5"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#C1C0C0"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="choose_minus"
+                    android:shadowColor="#D11919"
+                    android:stateListAnimator="@null"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/count_of_eat5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/b_plus5"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#FFFFFF"
+                    android:onClick="choose_plus"
+                    android:stateListAnimator="@null"
+                    android:text="+"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:minHeight="140dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_of_eat4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/cheesecake4" />
+
+                <TextView
+                    android:id="@+id/name_and_cost_of_eat4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background='@null'
+                    android:fontFamily="monospace"
+                    android:text="Чизкейк 3.0"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b_minus4"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#C1C0C0"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="choose_minus"
+                    android:shadowColor="#D11919"
+                    android:stateListAnimator="@null"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/count_of_eat4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/b_plus4"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="51dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#FFFFFF"
+                    android:onClick="choose_plus"
+                    android:stateListAnimator="@null"
+                    android:text="+"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_of_eat2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/cofe23" />
+
+                <TextView
+                    android:id="@+id/name_and_cost_of_eat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="monospace"
+                    android:text="Капучино 3.0"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b_minus2"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#C1C0C0"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="choose_minus"
+                    android:shadowColor="#D11919"
+                    android:stateListAnimator="@null"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/count_of_eat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/b_plus2"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="51dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#FFFFFF"
+                    android:onClick="choose_plus"
+                    android:stateListAnimator="@null"
+                    android:text="+"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_of_eat3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/cofe23" />
+
+                <TextView
+                    android:id="@+id/name_and_cost_of_eat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="monospace"
+                    android:text="Американо 3.0"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/b_minus3"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#C1C0C0"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="choose_minus"
+                    android:shadowColor="#D11919"
+                    android:stateListAnimator="@null"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/count_of_eat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/b_plus3"
+                    android:layout_width="54dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="51dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#FFFFFF"
+                    android:onClick="choose_plus"
+                    android:stateListAnimator="@null"
+                    android:text="+"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/No_use"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
